@@ -7,9 +7,9 @@ exports('GetApartments', function() return ApartmentsTable end)
 Config = {}
 
 -- If you're not utilizing ox_lib, it's time to question your approach.
-Config.Target = "ox" -- "ox" or "qb"
-Config.Notify = "ox" -- "ox" or "qb"
-Config.Radial = "ox" -- "ox" or "qb"
+Config.Target = "qb" -- "ox" or "qb"
+Config.Notify = "qb" -- "ox" or "qb"
+Config.Radial = "qb" -- "ox" or "qb"
 Config.Inventory = "qb" -- "ox" or "qb"
 Config.Logs = "qb" -- "qb"
 
