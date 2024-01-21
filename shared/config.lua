@@ -172,7 +172,7 @@ Config.Shells = {
         hash = `furnitured_midapart`,
         doorOffset = { x = 1.44, y = -10.25, z = 0.0, h = 0.0, width = 1.5  },
         stash = {
-            maxweight = 1000000, 
+            maxweight = 5000000, 
             slots = 50,
         },
         imgs = {
