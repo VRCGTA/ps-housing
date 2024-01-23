@@ -264,7 +264,7 @@ Config.Shells = {
         hash = `shell_garagem`,
         doorOffset = { x = 14.0, y = 1.7, z = -0.76, h = 88.49, width = 2.0  },
         stash = {
-            maxweight = 500000, 
+            maxweight = 3000000, 
             slots = 50,
         },
         imgs = {

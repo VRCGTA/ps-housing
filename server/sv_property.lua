@@ -252,6 +252,9 @@ function Property:UpdateOwner(data)
     local previousOwner = self.propertyData.owner
 
     local targetPlayer  = QBCore.Functions.GetPlayer(tonumber(targetSrc))
+    if targetPlayer == nil then
+        return
+    end
 
     local PlayerData = targetPlayer.PlayerData
     local bank = PlayerData.money.bank
