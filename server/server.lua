@@ -183,7 +183,7 @@ RegisterNetEvent("ps-housing:server:createApartmentStash", function(citizenId, p
     local stashId = string.format("property_%s", propertyId)
 
     -- Check for existing apartment and corresponding stash
-    local result = MySQL.query.await('SELECT items, stash FROM stashitems WHERE stash IN (SELECT name FROM apartments WHERE citizenid = ?)', { citizenId }) 
+    local result = {} -- MySQL.query.await('SELECT items, stash FROM stashitems WHERE stash IN (SELECT name FROM apartments WHERE citizenid = ?)', { citizenId }) 
    
     local items = {}
     if result[1] ~= nil then
