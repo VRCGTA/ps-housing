@@ -68,8 +68,8 @@ Config.StartingApartment = true
 Config.ShowCustomizerWhenNoStartingApartment = true
 
 Config.Apartments = {
-    ["Integrity Way"] = {
-        label = "Integrity Way",
+    ["8039 ハイツ"] = {
+        label = "8039 ハイツ",
         door = { x = 269.73, y = -640.75, z = 42.02, h = 249.07, length = 1, width = 2 },
         imgs = {
             {
@@ -80,8 +80,8 @@ Config.Apartments = {
         shell = "Apartment Furnished",
     },
     
-    ["South Rockford Drive"] = {
-        label = "South Rockford Drive",
+    ["8252 マンション"] = {
+        label = "8252 マンション",
         door = { x = -667.02, y = -1105.24, z = 14.63, h = 242.32, length = 1, width = 2 },
         imgs = {
             {
@@ -92,8 +92,8 @@ Config.Apartments = {
         shell = "Apartment Furnished",
     },
 
-    ['Morningwood Blvd'] = {
-        label = 'Morningwood Blvd',
+    ['7214 メゾン'] = {
+        label = '7214 メゾン',
         door = { x = -1288.52, y = -430.51, z = 35.15, h = 124.81, length = 1, width = 2 },
         imgs = {
             {
@@ -104,8 +104,8 @@ Config.Apartments = {
         shell = "Apartment Furnished",
     },
 
-    ['Tinsel Towers'] = {
-        label = 'Tinsel Towers',
+    ['7149 タワー'] = {
+        label = '7149 タワー',
         door = { x = -619.29, y = 37.69, z = 43.59, h = 181.03, length = 1, width = 2 },
         imgs = {
             {
@@ -116,8 +116,8 @@ Config.Apartments = {
         shell = "Apartment Furnished",
     },
 
-    ['Fantastic Plaza'] = {
-        label = 'Fantastic Plaza',
+    ['8174 プラザ'] = {
+        label = '8174 プラザ',
         door = { x = 291.517, y = -1078.674, z = 29.405, h = 270.75, length = 1, width = 2 },
         imgs = {
             {
