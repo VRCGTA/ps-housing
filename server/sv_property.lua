@@ -320,10 +320,10 @@ function Property:UpdateOwner(data)
     TriggerClientEvent("ps-housing:client:updateProperty", -1, "UpdateOwner", self.property_id, citizenid)
     TriggerClientEvent("ps-housing:client:updateProperty", -1, "UpdateForSale", self.property_id, 0)
     
-    Framework[Config.Logs].SendLog("**House Bought** by: **"..PlayerData.charinfo.firstname.." "..PlayerData.charinfo.lastname.."** for $"..self.propertyData.price.." from **"..realtor.PlayerData.charinfo.firstname.." "..realtor.PlayerData.charinfo.lastname.."** !")
+    Framework[Config.Logs].SendLog("**House Bought** by: **"..PlayerData.charinfo.firstname.." "..PlayerData.charinfo.lastname.."** for 𝕍 "..self.propertyData.price.." from **"..realtor.PlayerData.charinfo.firstname.." "..realtor.PlayerData.charinfo.lastname.."** !")
 
-    Framework[Config.Notify].Notify(targetSrc, "You have bought the property for $"..self.propertyData.price, "success")
-    Framework[Config.Notify].Notify(realtorSrc, "Client has bought the property for $"..self.propertyData.price, "success")
+    Framework[Config.Notify].Notify(targetSrc, "You have bought the property for 𝕍 "..self.propertyData.price, "success")
+    Framework[Config.Notify].Notify(realtorSrc, "Client has bought the property for 𝕍 "..self.propertyData.price, "success")
 end
 
 function Property:UpdateImgs(data)
@@ -685,11 +685,11 @@ RegisterNetEvent("ps-housing:server:buyFurniture", function(property_id, items, 
 
     property:UpdateFurnitures(property.propertyData.furnitures)
 
-    Framework[Config.Notify].Notify(src, "You bought furniture for $" .. price, "success")
+    Framework[Config.Notify].Notify(src, "You bought furniture for 𝕍 " .. price, "success")
 
-    Framework[Config.Logs].SendLog("**Player ".. GetPlayerName(src) .. "** bought furniture for **$" .. price .. "**")
+    Framework[Config.Logs].SendLog("**Player ".. GetPlayerName(src) .. "** bought furniture for **𝕍 " .. price .. "**")
 
-    Debug("Player bought furniture for $" .. price, "by: " .. GetPlayerName(src))
+    Debug("Player bought furniture for 𝕍 " .. price, "by: " .. GetPlayerName(src))
 end)
 
 RegisterNetEvent("ps-housing:server:removeFurniture", function(property_id, itemid)
