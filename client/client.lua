@@ -107,7 +107,7 @@ end)
 lib.callback.register('ps-housing:cb:confirmPurchase', function(amount, street, id)
     return lib.alertDialog({
         header = 'Purchase Confirmation',
-        content = 'Are you sure you want to purchase '..street..' ' .. id .. ' for $' .. amount .. '?',
+        content = 'Are you sure you want to purchase '..street..' ' .. id .. ' for 𝕍' .. amount .. '?',
         centered = true,
         cancel = true,
         labels = {

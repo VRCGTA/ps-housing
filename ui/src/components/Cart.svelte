@@ -32,7 +32,7 @@
 						<h1 class="text-[2rem]">{item.label}</h1>
 						<div class="flex text-[1.5rem]">
 							<h1>Price:</h1>
-							<h1 class="text-[color:var(--color-accent)] font-bold ml-2">${item.price}</h1>
+							<h1 class="text-[color:var(--color-accent)] font-bold ml-2">𝕍{item.price}</h1>
 						</div>
 
 					</div>
